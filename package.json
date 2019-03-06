@@ -1,0 +1,28 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dockerStart": "docker-compose -f ./docker-compose.yml up -d",
+    "deploy": "prisma deploy",
+    "reset": "prisma reset --force",
+    "delete": "prisma delete -force",
+    "start": "node index.js"
+  },
+  "author": "brooke c",
+  "license": "ISC",
+  "dependencies": {
+    "prisma-client-lib": "^1.27.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brookecheney/graphQL.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/brookecheney/graphQL/issues"
+  },
+  "homepage": "https://github.com/brookecheney/graphQL#readme",
+  "description": ""
+}
